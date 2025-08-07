@@ -1,0 +1,21 @@
+.main-header {
+  background-color:white;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+.main-header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.main-header nav ul li a {
+  color: white;
+  font-weight: 500;
+  &:hover {
+    color: lighten(white, 20%);
+    text-decoration: underline;
+  }
+}

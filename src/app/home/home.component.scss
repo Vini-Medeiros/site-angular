@@ -1,0 +1,120 @@
+.card {
+  background: linear-gradient(135deg, #f8fafc 60%, #e3e8ee 100%);
+  border-radius: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.card-text {
+  color: #4a5568;
+  font-size: 1rem;
+}
+
+.badge {
+  font-size: 0.95rem;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.btn-outline-primary, .btn-primary, .btn-info, .btn-secondary {
+  border-radius: 2em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.text-warning {
+  font-size: 0.95rem;
+}
+
+.alert {
+  border-radius: 1em;
+  font-size: 1.05rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.progress {
+  height: 1.2rem;
+  border-radius: 1em;
+  background: #e3e8ee;
+}
+.progress-bar {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 1.05rem;
+  background: #f8fafc;
+}
+.accordion-item {
+  border-radius: 1em;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.table {
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.table-primary th {
+  background: #3182ce;
+  color: #fff;
+}
+
+.list-group-item {
+  font-size: 1.05rem;
+  border-radius: 0.7em;
+  margin-bottom: 0.3em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.pagination .page-link {
+  border-radius: 1em !important;
+  margin: 0 0.2em;
+  font-weight: 600;
+}
+
+.spinner-border {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.toast {
+  border-radius: 1em;
+  font-size: 1.05rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.modal-content {
+  border-radius: 1em;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+}
+
+.form-control {
+  border-radius: 1em;
+  font-size: 1.05rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+.form-label {
+  font-weight: 600;
+  color: #2d3748;
+}

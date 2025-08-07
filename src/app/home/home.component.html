@@ -1,0 +1,263 @@
+<app-header></app-header>
+
+<section class="container my-5">
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Bem-vindo ao Portal de Cursos</h2>
+    <p class="lead">Encontre os melhores cursos para impulsionar sua carreira!</p>
+  </div>
+
+  <!-- Alert -->
+  <div class="alert alert-info d-flex align-items-center" role="alert">
+    <i class="bi bi-info-circle me-2"></i>
+    Promoção: Todos os cursos com até <strong>30% OFF</strong> hoje!
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="mb-4">
+    <label class="form-label">Progresso do seu aprendizado</label>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+    </div>
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion mb-4" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Como funciona o acesso aos cursos?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Você pode acessar os cursos a qualquer momento, de qualquer dispositivo.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Os cursos têm certificado?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Sim, todos os cursos oferecem certificado de conclusão.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards de Cursos -->
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mb-5">
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-code-slash text-primary"></i> Angular Completo</h5>
+          <p class="card-text">Aprenda Angular do básico ao avançado com projetos práticos.</p>
+          <span class="badge bg-success mb-2">R$ 99,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★☆ (4.5)
+          </div>
+          <a routerLink="/curso/angular" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-lightning-charge text-info"></i> React Essencial</h5>
+          <p class="card-text">Domine React e crie aplicações web modernas e dinâmicas.</p>
+          <span class="badge bg-success mb-2">R$ 89,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★★ (5.0)
+          </div>
+          <a routerLink="/curso/react" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-terminal text-secondary"></i> Python do Zero</h5>
+          <p class="card-text">Aprenda Python para desenvolvimento web, automação e ciência de dados.</p>
+          <span class="badge bg-success mb-2">R$ 79,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★☆ (4.7)
+          </div>
+          <a routerLink="/curso/python" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-cup-hot text-danger"></i> Java Profissional</h5>
+          <p class="card-text">Curso completo de Java para backend, desktop e web.</p>
+          <span class="badge bg-success mb-2">R$ 109,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★☆ (4.3)
+          </div>
+          <a routerLink="/curso/java" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-palette text-warning"></i> UX/UI Design</h5>
+          <p class="card-text">Aprenda design de interfaces e experiência do usuário.</p>
+          <span class="badge bg-success mb-2">R$ 59,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★☆ (4.6)
+          </div>
+          <a routerLink="/curso/uxui" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border-0 shadow-lg">
+        <!-- Imagem removida -->
+        <div class="card-body">
+          <h5 class="card-title d-flex align-items-center gap-2"><i class="bi bi-bar-chart-line text-success"></i> Data Science</h5>
+          <p class="card-text">Descubra o universo da ciência de dados com Python e ferramentas modernas.</p>
+          <span class="badge bg-success mb-2">R$ 129,90</span>
+          <div class="mb-2 text-warning">
+            ★★★★★ (5.0)
+          </div>
+          <a routerLink="/curso/datascience" class="btn btn-outline-primary w-100">Ver detalhes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulário de contato -->
+  <div class="card mb-5">
+    <div class="card-header bg-primary text-white">Fale conosco</div>
+    <div class="card-body">
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Tabela de cursos -->
+  <div class="table-responsive mb-5">
+    <table class="table table-striped table-hover align-middle">
+      <thead class="table-primary">
+        <tr>
+          <th>Curso</th>
+          <th>Categoria</th>
+          <th>Preço</th>
+          <th>Avaliação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Angular Completo</td>
+          <td>Frontend</td>
+          <td>R$ 99,90</td>
+          <td><span class="badge bg-warning text-dark">4.5</span></td>
+        </tr>
+        <tr>
+          <td>React Essencial</td>
+          <td>Frontend</td>
+          <td>R$ 89,90</td>
+          <td><span class="badge bg-warning text-dark">5.0</span></td>
+        </tr>
+        <tr>
+          <td>Python do Zero</td>
+          <td>Backend</td>
+          <td>R$ 79,90</td>
+          <td><span class="badge bg-warning text-dark">4.7</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Lista de recursos -->
+  <ul class="list-group mb-5">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Acesso vitalício
+      <span class="badge bg-success rounded-pill">Incluído</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Suporte ao aluno
+      <span class="badge bg-success rounded-pill">Incluído</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Certificado
+      <span class="badge bg-success rounded-pill">Incluído</span>
+    </li>
+  </ul>
+
+  <!-- Paginação -->
+  <nav aria-label="Navegação de cursos" class="mb-5">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+    </ul>
+  </nav>
+
+  <!-- Spinner -->
+  <div class="text-center mb-5">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Carregando...</span>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast align-items-center text-bg-success border-0 show mx-auto mb-5" role="alert" aria-live="assertive" aria-atomic="true" style="max-width: 350px;">
+    <div class="d-flex">
+      <div class="toast-body">
+        Inscrição realizada com sucesso!
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <!-- Modal Trigger -->
+  <div class="text-center mb-5">
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#infoModal">
+      Saiba mais sobre nossos cursos
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="infoModalLabel">Sobre os Cursos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Nossos cursos são desenvolvidos por especialistas e focados no mercado de trabalho.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
